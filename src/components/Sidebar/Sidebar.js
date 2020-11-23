@@ -25,7 +25,6 @@ function Sidebar() {
         {playlists?.items?.map(playlist => (
             <SidebarOption title={playlist.name} />
         ))}
-      <SidebarOption title="Hip hop" />
     </div>
   );
 }
